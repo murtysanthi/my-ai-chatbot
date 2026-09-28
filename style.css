@@ -1,0 +1,594 @@
+/* =====================================================
+   🤖 MY AI CHATBOT
+   Attractive Pastel + Dark Text Theme
+   Pastel Lavender + Peach + Blue + Mint
+   ===================================================== */
+
+
+/* =====================================================
+   1. MAIN APP BACKGROUND
+   ===================================================== */
+
+.stApp {
+    background:
+        radial-gradient(
+            circle at 10% 15%,
+            rgba(255, 218, 226, 0.75),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 90% 10%,
+            rgba(216, 207, 255, 0.75),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 15% 85%,
+            rgba(205, 235, 255, 0.70),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 85% 85%,
+            rgba(210, 245, 225, 0.70),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #fff7f2 0%,
+            #f5f0ff 35%,
+            #eef7ff 70%,
+            #f2fff8 100%
+        ) !important;
+
+    color: #20243A !important;
+}
+
+
+/* =====================================================
+   2. MAIN CONTENT
+   ===================================================== */
+
+.main {
+    background: transparent !important;
+}
+
+.block-container {
+    max-width: 1200px;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+
+/* =====================================================
+   3. MAIN TITLE
+   ===================================================== */
+
+h1 {
+    color: #30245C !important;
+    text-align: center;
+    font-size: 46px !important;
+    font-weight: 800 !important;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+
+    text-shadow:
+        0 3px 12px rgba(72, 52, 120, 0.12);
+}
+
+
+/* =====================================================
+   4. HEADINGS
+   ===================================================== */
+
+h2 {
+    color: #3E326D !important;
+    font-weight: 750 !important;
+    margin-top: 18px;
+}
+
+h3 {
+    color: #4D3C78 !important;
+    font-weight: 700 !important;
+}
+
+
+/* =====================================================
+   5. NORMAL TEXT
+   ===================================================== */
+
+p {
+    color: #25283D !important;
+    line-height: 1.65;
+}
+
+
+/* =====================================================
+   6. LABELS
+   ===================================================== */
+
+label {
+    color: #292B40 !important;
+    font-weight: 700 !important;
+}
+
+
+/* =====================================================
+   7. TEXT INPUT
+   ===================================================== */
+
+.stTextInput input {
+    background: rgba(255, 255, 255, 0.92) !important;
+    color: #20243A !important;
+
+    border: 2px solid #D8CCF2 !important;
+    border-radius: 15px !important;
+
+    padding: 13px !important;
+
+    box-shadow:
+        0 5px 18px rgba(67, 50, 110, 0.08);
+
+    transition: all 0.25s ease;
+}
+
+.stTextInput input:focus {
+    border: 2px solid #8065B5 !important;
+
+    box-shadow:
+        0 0 0 4px rgba(128, 101, 181, 0.14),
+        0 6px 20px rgba(67, 50, 110, 0.10) !important;
+}
+
+
+/* =====================================================
+   8. TEXT AREA
+   ===================================================== */
+
+.stTextArea textarea {
+    background: rgba(255, 255, 255, 0.92) !important;
+    color: #20243A !important;
+
+    border: 2px solid #D8CCF2 !important;
+    border-radius: 15px !important;
+
+    padding: 13px !important;
+
+    box-shadow:
+        0 5px 18px rgba(67, 50, 110, 0.08);
+
+    transition: all 0.25s ease;
+}
+
+.stTextArea textarea:focus {
+    border: 2px solid #8065B5 !important;
+
+    box-shadow:
+        0 0 0 4px rgba(128, 101, 181, 0.14) !important;
+}
+
+
+/* =====================================================
+   9. SELECT BOX
+   ===================================================== */
+
+div[data-baseweb="select"] > div {
+    background: rgba(255, 255, 255, 0.92) !important;
+
+    border: 2px solid #D8CCF2 !important;
+    border-radius: 14px !important;
+
+    color: #20243A !important;
+
+    box-shadow:
+        0 4px 14px rgba(67, 50, 110, 0.07);
+}
+
+
+/* =====================================================
+   10. NUMBER INPUT
+   ===================================================== */
+
+.stNumberInput input {
+    background: rgba(255, 255, 255, 0.92) !important;
+    color: #20243A !important;
+
+    border: 2px solid #D8CCF2 !important;
+    border-radius: 14px !important;
+}
+
+
+/* =====================================================
+   11. DATE & TIME
+   ===================================================== */
+
+.stDateInput input,
+.stTimeInput input {
+    background: rgba(255, 255, 255, 0.92) !important;
+    color: #20243A !important;
+
+    border: 2px solid #D8CCF2 !important;
+    border-radius: 14px !important;
+}
+
+
+/* =====================================================
+   12. BUTTONS
+   ===================================================== */
+
+.stButton > button {
+    background: linear-gradient(
+        135deg,
+        #7665B5,
+        #9A78B8,
+        #7C9BCB
+    ) !important;
+
+    color: #FFFFFF !important;
+
+    border: none !important;
+    border-radius: 14px !important;
+
+    padding: 11px 25px !important;
+
+    font-size: 15px !important;
+    font-weight: 700 !important;
+
+    box-shadow:
+        0 6px 18px rgba(77, 59, 130, 0.20);
+
+    transition: all 0.25s ease;
+}
+
+
+/* Button Hover */
+
+.stButton > button:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(77, 59, 130, 0.28);
+
+    filter: brightness(1.05);
+}
+
+
+/* =====================================================
+   13. PRIMARY ASK AI BUTTON
+   ===================================================== */
+
+button[kind="primary"] {
+    background: linear-gradient(
+        135deg,
+        #5D4A9E,
+        #8565AD,
+        #698FBE
+    ) !important;
+
+    color: white !important;
+
+    border-radius: 15px !important;
+
+    font-size: 16px !important;
+    font-weight: 750 !important;
+
+    padding: 12px 30px !important;
+
+    box-shadow:
+        0 7px 20px rgba(72, 52, 125, 0.25);
+}
+
+
+/* =====================================================
+   14. CHECKBOX / RADIO / TOGGLE
+   ===================================================== */
+
+.stCheckbox,
+.stRadio,
+.stToggle {
+    color: #292B40 !important;
+}
+
+
+/* =====================================================
+   15. EXPANDER
+   ===================================================== */
+
+[data-testid="stExpander"] {
+    background: rgba(255, 255, 255, 0.78) !important;
+
+    border: 1.5px solid #D8CCF2 !important;
+    border-radius: 17px !important;
+
+    box-shadow:
+        0 7px 22px rgba(67, 50, 110, 0.09);
+
+    overflow: hidden;
+}
+
+[data-testid="stExpander"] summary {
+    color: #3E326D !important;
+    font-weight: 700 !important;
+}
+
+
+/* =====================================================
+   16. CHAT INPUT
+   ===================================================== */
+
+[data-testid="stChatInput"] {
+    background: rgba(255, 255, 255, 0.94) !important;
+
+    border: 2px solid #D8CCF2 !important;
+    border-radius: 18px !important;
+
+    box-shadow:
+        0 8px 25px rgba(67, 50, 110, 0.12);
+}
+
+[data-testid="stChatInput"] textarea {
+    background: transparent !important;
+    color: #20243A !important;
+}
+
+
+/* =====================================================
+   17. CHAT MESSAGES
+   ===================================================== */
+
+[data-testid="stChatMessage"] {
+    background: rgba(255, 255, 255, 0.84) !important;
+
+    border: 1.5px solid #DDD4EF !important;
+    border-radius: 18px !important;
+
+    padding: 14px 17px !important;
+    margin-bottom: 13px;
+
+    box-shadow:
+        0 6px 18px rgba(67, 50, 110, 0.08);
+}
+
+
+/* Chat message text */
+
+[data-testid="stChatMessage"] p {
+    color: #25283D !important;
+}
+
+
+/* =====================================================
+   18. ALERT BOX
+   ===================================================== */
+
+[data-testid="stAlert"] {
+    border-radius: 15px !important;
+    border: none !important;
+
+    box-shadow:
+        0 5px 16px rgba(70, 70, 100, 0.08);
+}
+
+
+/* =====================================================
+   19. FILE UPLOADER
+   ===================================================== */
+
+[data-testid="stFileUploader"] {
+    background: rgba(255, 255, 255, 0.80) !important;
+
+    border: 2px dashed #BFAEE2 !important;
+    border-radius: 16px !important;
+
+    padding: 12px !important;
+
+    box-shadow:
+        0 5px 17px rgba(67, 50, 110, 0.07);
+}
+
+
+/* =====================================================
+   20. SIDEBAR
+   ===================================================== */
+
+section[data-testid="stSidebar"] {
+    background:
+        linear-gradient(
+            180deg,
+            #EEE8FF 0%,
+            #FFF0F2 35%,
+            #EAF5FF 70%,
+            #EFFFF5 100%
+        ) !important;
+
+    border-right: 1px solid #D8D0EA;
+
+    box-shadow:
+        5px 0 20px rgba(67, 50, 110, 0.08);
+}
+
+
+/* Sidebar title */
+
+section[data-testid="stSidebar"] h1 {
+    color: #30245C !important;
+
+    text-align: left;
+
+    font-size: 29px !important;
+    font-weight: 800 !important;
+}
+
+
+/* Sidebar headings */
+
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #3E326D !important;
+}
+
+
+/* Sidebar text */
+
+section[data-testid="stSidebar"] p {
+    color: #292B40 !important;
+}
+
+
+/* =====================================================
+   21. SIDEBAR INFO BOX
+   ===================================================== */
+
+section[data-testid="stSidebar"]
+[data-testid="stAlert"] {
+    background: rgba(255, 255, 255, 0.65) !important;
+
+    border: 1px solid #CFC4E7 !important;
+    border-radius: 15px !important;
+}
+
+
+/* =====================================================
+   22. SIDEBAR BUTTON
+   ===================================================== */
+
+section[data-testid="stSidebar"] .stButton > button {
+    width: 100%;
+    border-radius: 13px;
+}
+
+
+/* =====================================================
+   23. DIVIDERS
+   ===================================================== */
+
+hr {
+    border: none !important;
+    height: 2px !important;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        #BBAAD9,
+        #E8BFC9,
+        #AFCBE5,
+        transparent
+    ) !important;
+
+    margin: 28px 0 !important;
+}
+
+
+/* =====================================================
+   24. CAPTION
+   ===================================================== */
+
+.stCaption {
+    color: #55566B !important;
+
+    text-align: center;
+
+    font-size: 14px;
+}
+
+
+/* =====================================================
+   25. CODE BLOCK
+   ===================================================== */
+
+[data-testid="stCode"] {
+    border-radius: 15px !important;
+
+    border: 1px solid #D8D0E8 !important;
+
+    box-shadow:
+        0 5px 16px rgba(67, 50, 110, 0.08);
+}
+
+
+/* =====================================================
+   26. PROGRESS BAR
+   ===================================================== */
+
+[data-testid="stProgressBar"] {
+    border-radius: 10px;
+    background-color: #E3DCF0;
+}
+
+
+/* =====================================================
+   27. COLUMNS
+   ===================================================== */
+
+[data-testid="column"] {
+    border-radius: 15px;
+}
+
+
+/* =====================================================
+   28. HEADER
+   ===================================================== */
+
+header[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
+
+/* =====================================================
+   29. REMOVE STREAMLIT FOOTER
+   ===================================================== */
+
+footer {
+    visibility: hidden;
+}
+
+
+/* =====================================================
+   30. IMPORTANT
+   Keep the pastel gradient visible
+   ===================================================== */
+
+.stApp,
+.main,
+section.main,
+div[data-testid="stAppViewContainer"] {
+    background:
+        radial-gradient(
+            circle at 10% 15%,
+            rgba(255, 218, 226, 0.75),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 90% 10%,
+            rgba(216, 207, 255, 0.75),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 15% 85%,
+            rgba(205, 235, 255, 0.70),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 85% 85%,
+            rgba(210, 245, 225, 0.70),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #FFF7F2,
+            #F5F0FF,
+            #EEF7FF,
+            #F2FFF8
+        ) !important;
+}
+
+
+/* =====================================================
+   31. SMOOTH EFFECTS
+   ===================================================== */
+
+.stButton > button,
+.stTextInput input,
+.stTextArea textarea,
+[data-testid="stChatInput"],
+[data-testid="stExpander"] {
+    transition: all 0.25s ease;
+}
